@@ -2,7 +2,7 @@
   "openapi": "3.0.2",
   "servers": [
     {
-      "url": "http://localhost:8080/v3"
+      "url": "http://api.openspec.com/v3"
     }
   ],
   "info": {

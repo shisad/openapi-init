@@ -148,6 +148,9 @@ paths:
         - petstore_auth:
             - 'write:pets'
             - 'read:pets'
+      x-code-samples:
+        - lang: java
+          source: "String petId = \"petId2\";\r\n\r\npetsController.getPetbyStatus(petId, new APICallBack<GetPetStatusResponse>() {\r\n    public void onSuccess(HttpContext context, GetPetStatusResponse response) {\r\n        // TODO success callback handler\r\n    }\r\n    public void onFailure(HttpContext context, Throwable error) {\r\n        // TODO failure callback handler\r\n    }\r\n});"
   /pet/findByTags:
     get:
       tags:
